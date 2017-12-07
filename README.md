@@ -17,6 +17,11 @@ Then run:
 	$ sudo make flash_send_lightX 
 With X = 1, 2 or 3.
 
+Flash the 3 nodes and connect to the 3rd one with:
+
+	$ sudo miniterm.py /dev/ttyUSBX 500000
+With X the usb port.
+
 
 Explanation:
 
