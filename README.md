@@ -1,10 +1,15 @@
-# multihop-comm-M3-nodes
+# Multihop-comm-M3-nodes
 An example to show how multihop communication between nodes in a Wireless Sensor Network works.
 
-The 3 c scripts available here are scripts written to be flashed on m3 nodes.
+The 3 scripts available in send_light are scripts written in c to be flashed on m3 nodes.
 To use m3 node on your computer, first follow this tutorial: https://gist.github.com/vandaele/d77c54020575b805a7d03268f99d9552
 
-Then, while your m3 node is connected to your computer via USB; open a termianl an go to:
+Then, import the folder 'send_light' in /iot-lab/parts/openlab/appli/examples.
+Modify the /iot-lab/parts/openlab/appli/CMakeLists.txt and add:
+
+	add_subdirectory(send_light)
+
+While your m3 node is connected to your computer via USB; open a termianl an go to:
 
 	$ cd /iot-lab/parts/openlab/build.m3
 Then run:
