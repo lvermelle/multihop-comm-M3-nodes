@@ -9,7 +9,7 @@ Modify the /iot-lab/parts/openlab/appli/CMakeLists.txt and add:
 
 	add_subdirectory(send_light)
 
-While your m3 node is connected to your computer via USB; open a termianl an go to:
+While your m3 node is connected to your computer via USB; open a terminal an go to:
 
 	$ cd /iot-lab/parts/openlab/build.m3
 Then run:
